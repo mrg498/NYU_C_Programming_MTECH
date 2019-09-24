@@ -1,0 +1,4 @@
+/Users/milesgrossenbacher/Documents/computerScienceNYUCourses/cProgrammingInMusicTech/PS03_MilesGrossenbacher/vigenere.c:174:21: error: use of undeclared identifier 'i'
+      encodedString[i] = 0;
+                    ^
+1 error generated.

@@ -1,0 +1,12 @@
+Time Complexity--
+
+Linear - O(n) (must vist all n elements worst case)
+Binary - O(log(n)) (each iteration, the number of possible matches gets halved)
+Hash   - O(1) (there is a direct mapping to the correct match)
+
+Tradeoff of Binary - If the elements being searched for are not in sorted order
+	    	     then we must sort them first which using quick sort 
+		     takes O(nlog(n)).
+Tradeoff of Hash Map - We have to create this hash table which holds every
+	    	       element so it takes up a good amount of space if
+		       there are lots of elements.
